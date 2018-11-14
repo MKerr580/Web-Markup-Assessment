@@ -30,7 +30,7 @@ video
 	bottom: 0;
 	position: absolute;
 	width: auto;
-	max-width: 150%; 
+	max-width: 100%; 
 	z-index: -1;
 }
 
