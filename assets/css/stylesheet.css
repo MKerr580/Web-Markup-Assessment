@@ -132,10 +132,6 @@ article img
 @media screen and (min-width:960px)
 {
 	
-
-    .nav {
-        float: left;
-    }
 	.general-content article
 	{
 		flex: 100%;
@@ -147,7 +143,7 @@ article img
 		height: 100%;
 	}
 }
-@media screen and (min-width:360px) and (max-width: 960px)
+@media screen and (min-width:360px) and (max-width: 927px)
 {
     .banner2
 	{
@@ -180,10 +176,7 @@ article img
 }
 @media screen and (max-width:360px)
 {
-    .nav {
-        float: none;
-		}
-
+	
 .banner2
 	{
 		display: none;
@@ -196,12 +189,12 @@ article img
 	{
 		display: none;
 	}
-	.header1
+	.general-content
 	{
 		display:flex;
 		flex-wrap:wrap;
 	}
-	.header1
+	.general-content
 	{
 		display:flex;
 		flex-wrap: wrap;
