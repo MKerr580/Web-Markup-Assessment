@@ -132,6 +132,10 @@ article img
 @media screen and (min-width:960px)
 {
 	
+
+    .nav {
+        float: left;
+    }
 	.general-content article
 	{
 		flex: 100%;
@@ -162,7 +166,7 @@ article img
 		display:flex;
 		flex-wrap: nowrap;
 	}
-	.header1 article 
+	.general-content article 
 	{
 		flex: 50%;
 		max-width: 100%;
@@ -176,6 +180,10 @@ article img
 }
 @media screen and (max-width:360px)
 {
+    .nav {
+        float: none;
+		}
+
 .banner2
 	{
 		display: none;
@@ -200,7 +208,7 @@ article img
 	}
 	.general-content article
 	{
-		flex: 100%;
+		flex: 25%;
 		max-width: 100%;
 	}
 	article img
