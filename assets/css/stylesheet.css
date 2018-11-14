@@ -52,7 +52,7 @@ h1
 	margin: 0 auto;
 	text-align:center;
 	text-transform: uppercase;
-	font-size: 2em;
+	font-size: 10vw;
 	padding-top: 50px; 
 	padding-bottom: 50px;
 	
@@ -108,7 +108,6 @@ h2
 	padding-bottom: 4%;
 	width: 100%;
 }
-
 footer
 {
 	background-color: #000000;
@@ -120,15 +119,13 @@ footer
 	padding-bottom: 10px;
 	justify-content: center; 
 }
-	
-	
-	
-	
 article img
 {
 	width: 100%;
 	height: auto;
 }
+
+/* Settings for other devices */
 
 @media screen and (min-width:960px)
 {
@@ -143,9 +140,25 @@ article img
 		width: 100%;
 		height: 100%;
 	}
+	h1
+	{
+	
+		background-image: url('../img/companylogoBG.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		width: 100%;
+		margin: 0 auto;
+		text-align:center;
+		text-transform: uppercase;
+		font-size: 2em;
+		padding-top: 50px; 
+		padding-bottom: 50px;
+	
+	}
 }
 @media screen and (min-width:360px) and (max-width: 927px)
 {
+
     .banner2
 	{
 		display: none;
@@ -177,8 +190,8 @@ article img
 }
 @media screen and (max-width:360px)
 {
-	
-.banner2
+
+    .banner2
 	{
 		display: none;
 	}
@@ -195,12 +208,7 @@ article img
 		display:flex;
 		flex-wrap:wrap;
 	}
-	.general-content
-	{
-		display:flex;
-		flex-wrap: wrap;
-	}
-	.general-content article
+	.index-content 
 	{
 		flex: 25%;
 		max-width: 100%;
@@ -283,6 +291,9 @@ article img
     background-image: url(../img/product12.jpg);
 }
 
+/* Settings for other devices */
+
+
 /* CONTACT PAGE */
 h3
 {
@@ -352,3 +363,4 @@ input
 	color: #FFFFFF;
 	padding: 10px;
 }
+/* Settings for other devices */
