@@ -30,7 +30,7 @@ video
 	bottom: 0;
 	position: absolute;
 	width: auto;
-	max-width: 100%; 
+	max-width: 150%; 
 	z-index: -1;
 }
 
@@ -47,12 +47,14 @@ h1
 	background-image: url('../img/companylogoBG.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
+	width: 100%;
 	margin: 0 auto;
 	text-align:center;
 	text-transform: uppercase;
-	font-size: 2rem;
+	font-size: 2em;
 	padding-top: 50px; 
 	padding-bottom: 50px;
+	
 }
 nav
 {
@@ -130,7 +132,7 @@ article img
 @media screen and (min-width:960px)
 {
 	
-	.header1 article
+	.general-content article
 	{
 		flex: 100%;
 		max-width: 100%;
@@ -196,7 +198,7 @@ article img
 		display:flex;
 		flex-wrap: wrap;
 	}
-	.header1 article
+	.general-content article
 	{
 		flex: 100%;
 		max-width: 100%;
@@ -277,4 +279,74 @@ article img
 .flex-columns a:nth-of-type(12)
 {
     background-image: url(../img/product12.jpg);
+}
+
+/* CONTACT PAGE */
+h3
+{
+	margin:0;
+	display: block;
+	color: #707070;
+	font-size: 30px;
+	padding: 20px;
+}
+section
+{
+	background-color: #F5F5F5;
+	width: 100%;
+	display:block;
+	margin: 0;
+}
+form
+{
+	display: block;
+	margin: 0;
+	background-color: #F5F5F5;
+	padding: 50px;
+}
+fieldset
+{
+	padding:0;
+	border: 1px solid #000000;
+}
+.contact-content
+{
+	background-color: #FFFFFF;
+	width: 98%;
+    color: #000000;
+	padding: 10px;
+}
+select 
+{
+	background-color: #FFFFFF;
+	border: 1px solid #000000;
+	float: right;
+	width: 60%;
+}
+.contactFormFieldset
+{
+	background-color: #F5F5F5;
+	padding: 0; 
+	border: none;
+	width: 97%;
+}
+
+textarea
+{
+	background-color: #FFFFFF;
+	width: 99%;
+	resize: vertical;
+}
+input 
+{
+	
+	width: 99%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding:10px;
+}
+.submitbut {
+	background-color:#2688FC;
+	color: #FFFFFF;
+	padding: 10px;
 }
