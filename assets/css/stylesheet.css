@@ -1,5 +1,6 @@
 /*GENERAL STUFFS*/
 /*Matthew Kerr - 629141 */
+*
 {
 	margin:0;
 	padding: 0;
@@ -228,7 +229,7 @@ article img
 	border: 6px solid #FFFFFF;
 	width: auto;
     flex: 100%;
-    max-width: 32%;
+    max-width: 33%;
     height: 300px;
 }
 
