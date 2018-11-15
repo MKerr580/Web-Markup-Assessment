@@ -354,10 +354,14 @@ article img
 		max-width: 50%;
 		height: 300px;
 	}
-	h2{
+	.banner1prod{
+	
+		display: none;	
+	}
+	.banner2prod{
+		
 		display: none;
 	}
-		
 }	
 @media screen and (max-width:360px)
 {
@@ -369,9 +373,6 @@ article img
 		width: auto;
 		flex: 100%;
 		height: 300px;
-	}
-	h2{
-		display: flex;
 	}
 	.banner1prod{
 		display: none;
