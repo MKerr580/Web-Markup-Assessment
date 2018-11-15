@@ -61,7 +61,6 @@ nav
 {
 	display: flex;
 	justify-content: center;
-	font-size: 10vw;
 	width: 100%;
 	background-color: #C0C0C0;
 }
@@ -262,34 +261,7 @@ article img
 }
 
 /*PRODUCT PAGE*/
-.general-content 
-{
-	display:flex; 
-	flex-direction: column; 
-}
-h1
-{
-	
-	background-image: url('../img/companylogoBG.jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
-	width: 100%;
-	margin: 0 auto;
-	text-align:center;
-	text-transform: uppercase;
-	font-size: 10vw;
-	padding-top: 50px; 
-	padding-bottom: 50px;
-	
-}
-nav
-{
-	display: flex;
-	justify-content: center;
-	font-size: 10vw;
-	width: 100%;
-	background-color: #C0C0C0;
-}
+
 .flex-columns
 {
 	display: flex;
@@ -364,10 +336,7 @@ nav
 		max-width: 33%;
 		height: 300px;
 	}
-	h1
-	{
-		text-align:center;
-	}
+	
 	.banner2prod{
 		display: none;
 	}
@@ -385,10 +354,6 @@ nav
 		max-width: 50%;
 		height: 300px;
 	}
-	h1
-	{
-		text-align:center;
-	}
 	h2{
 		display: none;
 	}
@@ -405,46 +370,15 @@ nav
 		flex: 100%;
 		height: 300px;
 	}
-		h1
-	{
-		text-align:left;
+	h2{
+		display: flex;
 	}
 	.banner1prod{
 		display: none;
 	}
-	.banner2prod{
-		display: flex;
-	}
+	
 }
 /* CONTACT PAGE */
-.general-content 
-{
-	display:flex; 
-	flex-direction: column; 
-}
-h1
-{
-	
-	background-image: url('../img/companylogoBG.jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
-	width: 100%;
-	margin: 0 auto;
-	text-align:center;
-	text-transform: uppercase;
-	font-size: 10vw;
-	padding-top: 50px; 
-	padding-bottom: 50px;
-	
-}
-nav
-{
-	display: flex;
-	justify-content: center;
-	font-size: 10vw;
-	width: 100%;
-	background-color: #C0C0C0;
-}
 h3
 {
 	margin:0;
