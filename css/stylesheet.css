@@ -171,20 +171,17 @@ article img
 	{
 		display: none;
 	}
-	.header1
+	
+	.product3,.product8
 	{
-		display:flex;
-		flex-wrap: nowrap;
-	}
-	.general-content article 
-	{
-		flex: 50%;
-		max-width: 100%;
+		width:50%;
+		max-width:50%;
 	}
 	article img
 	{
 		max-width: 100%;
-		height: auto;
+		height: 100%;
+		border: 3px solid #FFFFFF;
 	}
 
 }
@@ -365,7 +362,7 @@ article img
 }	
 @media screen and (max-width:360px)
 {
-		.flex-columns a
+	.flex-columns a
 	{
 		background-size: cover;
 		background-position: center;
