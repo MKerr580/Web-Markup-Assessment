@@ -62,36 +62,40 @@ nav
 	display: flex;
 	justify-content: center;
 	background-color: #C0C0C0;
+	font-family: 'Open Sans', sans-serif;
 }
-ul 
-{
-    list-style-type: none;
+ul {
+	  list-style-type: none;
     margin: 0;
     padding: 0;
     background-color: #C0C0C0;
 	vertical-align: middle;
 	width: 100%;
 }
-li
-{
+li {
+	
     float: left;
 	margin-left: 15%;
 	text-align:center;
 	line-height: 50px;
-}
-li a
-{
-	font-size:.5em;
-	text-transform: uppercase;
-    display: block;
-    color: #FFFFFF;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-li
-{
 	color: #2699FB;
+}
+a 	
+	{
+		font-size:.5em;
+		text-transform: uppercase;
+		display: block;
+		color: #FFFFFF;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+	}
+
+#menu-icon {
+	background: url(img/menu-icon.png) no-repeat center;
+	/*display: hidden;*/
+	width: 64px;
+	height: 64px;
 }
 h2
 {
@@ -252,6 +256,29 @@ article img
 		padding-bottom: 50px;
 	
 	}
+		}
+	#menu-icon {
+		display: inline-block;
+	}
+	nav ul, nav:active ul {
+		display: none;
+		position: absolute;
+		padding: 20px;
+		background: #C0C0C0;
+		right: 10px;
+		top: 65px;
+		width: 35%;
+	}
+	nav:hover ul {
+		display: block;
+	}
+	nav li {
+		text-align: center;
+		width: 100%;
+		padding: 15px 0;
+		margin: 0;
+	}
+}
 }
 
 /*PRODUCT PAGE*/
@@ -446,14 +473,36 @@ input
 
 @media screen and (min-width:960px)
 {
-	
-
+	contact-content
+	{
+		
+		display:flex;
+		flex-wrap:wrap;
+	}
 }
 @media screen and (min-width:361px) and (max-width: 959px)
 {
+contact-content
+	{
 	
+		display:flex;
+		flex-wrap:wrap;
+	}	
+	.banner1cont
+	{
+		display:none;
+	}
 }	
 @media screen and (max-width:360px)
 {
-	
+	contact-content
+	{
+		
+		display:flex;
+		flex-wrap:wrap;
+	}
+	.topic
+	{
+		font-size:4vw;
+	}
 }
