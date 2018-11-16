@@ -1,4 +1,4 @@
-/*GENERAL STUFFS*/
+/*GENERAL STUFFS FOR ALL PAGES*/
 /*Matthew Kerr - 629141 */
 *
 {
@@ -37,7 +37,7 @@ video
 
 /*INDEX STUFFS*/
 
-.general-content 
+.general-content /**/
 {
 	display:flex; 
 	flex-direction: column; 
@@ -61,7 +61,6 @@ nav
 {
 	display: flex;
 	justify-content: center;
-	width: flex-wrap;
 	background-color: #C0C0C0;
 }
 ul 
@@ -102,7 +101,6 @@ h2
 	color: #FFFFFF;
 	font-size: .5em;
 	text-transform:uppercase;
-	border: 3%;
 	margin: 0;
 	padding-top: 4%;
 	padding-bottom: 4%;
@@ -236,7 +234,7 @@ article img
 	.index-content 
 	{
 		flex: 25%;
-		max-width: flex;
+		max-width: 100%;
 	}
 	
 	h1
@@ -264,7 +262,7 @@ article img
 	justify-content: center;
 	align-items: center;
     flex-wrap: wrap;
-    width:flex;
+    width:100%;
 }
 
 
@@ -327,7 +325,6 @@ article img
 		background-size: cover;
 		background-position: center;
 		border: 6px solid #FFFFFF;
-		width: flex;
 		flex: 100%;
 		max-width: 33%;
 		height: 300px;
@@ -345,7 +342,6 @@ article img
 		background-size: cover;
 		background-position: center;
 		border: 6px solid #FFFFFF;
-		width: flex;
 		flex: 100%;
 		max-width: 50%;
 		height: 300px;
@@ -366,7 +362,6 @@ article img
 		background-size: cover;
 		background-position: center;
 		border: 6px solid #FFFFFF;
-		width: flex;
 		flex: 100%;
 		height: 300px;
 	}
