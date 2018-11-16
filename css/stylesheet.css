@@ -79,10 +79,11 @@ li
 	text-align:center;
 	line-height: 50px;
 }
-li a
-	color: #2699FB;
+	li a{
+		
+	color: #FFFFFF;
 }
-a 	
+	a 	
 	{
 		font-size:.5em;
 		text-transform: uppercase;
