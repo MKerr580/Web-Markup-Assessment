@@ -61,7 +61,7 @@ nav
 {
 	display: flex;
 	justify-content: center;
-	width: 100%;
+	width: flex-wrap;
 	background-color: #C0C0C0;
 }
 ul 
@@ -174,14 +174,39 @@ article img
 	
 	.product3,.product8
 	{
-		width:50%;
-		max-width:50%;
+		display:inline-block;
+		background-size: cover;
+		background-position: center;
+		border: 6px solid #FFFFFF;
+		width:49%;
+		max-width: 100%;
+		height:300px;
+	}
+	.banner4
+	{
+		
+    display: block;
 	}
 	article img
+{
+	width: 100%;
+		height:300px;
+}
+
+	h1
 	{
-		max-width: 100%;
-		height: 100%;
-		border: 3px solid #FFFFFF;
+	
+		background-image: url('../img/companylogoBG.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		width: 100%;
+		margin: 0 auto;
+		text-align:center;
+		text-transform: uppercase;
+		font-size: 5vw;
+		padding-top: 50px; 
+		padding-bottom: 50px;
+	
 	}
 
 }
@@ -190,44 +215,7 @@ article img
 	header {
 
 		position: absolute;
-
 	}
-
-	#menu-icon {
-
-		display:inline-block;
-
-	}
-
-	nav ul, nav:active ul { 
-
-		display: none;
-		position: absolute;
-		padding: 20px;
-		background: #fff;
-		border: 5px solid #444;
-		right: 20px;
-		top: 60px;
-		width: 50%;
-		border-radius: 4px 0 4px 4px;
-
-	}
-
-	nav li {
-
-		text-align: center;
-		width: 100%;
-		padding: 10px 0;
-		margin: 0;
-
-	}
-
-	nav:hover ul {
-
-		display: block;
-
-	}
-
     .banner2
 	{
 		display: none;
@@ -248,17 +236,23 @@ article img
 	.index-content 
 	{
 		flex: 25%;
-		max-width: 100%;
+		max-width: flex;
 	}
-	article img
-	{
-		width: 100%;
-		height: 100%;
-	}
+	
 	h1
 	{
-		
-	text-align:left;
+	
+		background-image: url('../img/companylogoBG.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		width: 100%;
+		margin: 0 auto;
+		text-align:center;
+		text-transform: uppercase;
+		font-size: 10vw;
+		padding-top: 50px; 
+		padding-bottom: 50px;
+	
 	}
 }
 
@@ -270,7 +264,7 @@ article img
 	justify-content: center;
 	align-items: center;
     flex-wrap: wrap;
-    width:100%;
+    width:flex;
 }
 
 
@@ -333,7 +327,7 @@ article img
 		background-size: cover;
 		background-position: center;
 		border: 6px solid #FFFFFF;
-		width: auto;
+		width: flex;
 		flex: 100%;
 		max-width: 33%;
 		height: 300px;
@@ -351,7 +345,7 @@ article img
 		background-size: cover;
 		background-position: center;
 		border: 6px solid #FFFFFF;
-		width: auto;
+		width: flex;
 		flex: 100%;
 		max-width: 50%;
 		height: 300px;
@@ -372,14 +366,17 @@ article img
 		background-size: cover;
 		background-position: center;
 		border: 6px solid #FFFFFF;
-		width: auto;
+		width: flex;
 		flex: 100%;
 		height: 300px;
 	}
 	.banner1prod{
 		display: none;
 	}
-	
+	navbar
+	{
+		display:flex;
+	}
 }
 /* CONTACT PAGE */
 h3
